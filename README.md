@@ -1,7 +1,7 @@
 # MembershipRebootToAspNetIdentity.PasswordHasher
 Example of a password hasher moving from BrockAllen.MembershipReboot to ASP.NET Core Identity
 
-This can be used so that when you migrate from [BrockAllen.MembershipReboot](https://github.com/brockallen/BrockAllen.MembershipReboot) to AspNet.Identity[ASP.NET Core Identity](https://github.com/aspnet/Identity).
+This can be used so that when you migrate from [BrockAllen.MembershipReboot](https://github.com/brockallen/BrockAllen.MembershipReboot) to ASP.NET Core Identity [ASP.NET Core Identity](https://github.com/aspnet/Identity).
 
 On line 30 in PasswordHasher.cs you need to check that it matches your hash format in the DB. if it does not replace it with the format you use or possibly with pattern matching in case you have used multiple hashes.
 
