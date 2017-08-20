@@ -12,3 +12,5 @@ base.PasswordHasher = new PasswordHasher<TUser>(passwordHasher);
 ```
 
 And that should be it. Now you should be able to use the backwards compatible password hasher.
+
+When you have confirmed that all your users have changed passwords to the new format this hasher is no longer needed and can be refactored out.
